@@ -3,7 +3,7 @@ import './App.css';
 import Header from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/home';
-import Build from './pages/build';
+import Build from './pages/sort_build';
 import Blogs from './pages/blogs';
 import SignUp from './pages/signup';
 import Contact from './pages/contact';
@@ -12,6 +12,7 @@ function App() {
 	return (
 		<Router>
 			<Header />
+			<Home />
 			<Routes>
 				<Route exact path='/home' element={<Home />} />
 				<Route path='/build' element={<Build />} />

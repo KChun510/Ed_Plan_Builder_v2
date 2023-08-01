@@ -1,0 +1,27 @@
+@import url("http://fonts.googleapis.com/css?family=Raleway:400,300,700");
+
+.App{
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.redirects{
+    position:right;
+}
+
+#nav_links{
+    padding-right: 50px;
+    font-family: 'Raleway', sans-serif !important;
+    color: #f58847;
+    
+
+}
+#nav_label{
+    color: #f58847;
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+#nav-color{
+    background-color: #f58847;
+}

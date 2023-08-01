@@ -1,0 +1,45 @@
+@import url("http://fonts.googleapis.com/css?family=Raleway:400,300,700");
+
+.btn-secondary {
+    background-color:#282d30 !important;
+    color: #f58847;
+    outline-color: red;
+}
+
+.App{
+    font-family: 'Raleway', sans-serif !important;
+}
+
+#search_box{
+    margin: 25px auto;
+    background-color: #282d30;
+}
+
+
+#Search_txt{
+    padding-top: 35px;
+    padding-left: 100px;
+    color: #f58847;
+
+}
+
+#search_color{
+    color: #f58847;
+}
+
+#word_animation{
+  color: #f58847;
+}
+
+/*
+#ani_box{
+    border-style:bottom;
+    border-color: #f58847;
+    border-width: 1px;
+
+}
+*/
+
+#search_container{
+    padding-top:150px; 
+}

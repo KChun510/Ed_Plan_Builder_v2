@@ -122,7 +122,7 @@ const Home = () => {
       <br></br>
       <button type = "button" className = 'btn btn-secondary' onClick={Build_direct}>Build Your Transfer Plan</button>
         <Routes>
-          <Route path = '/build'/>
+          <Route path = '/sort_build'/>
         </Routes>
       </div>
     </div>

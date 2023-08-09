@@ -106,7 +106,7 @@ const Home = () => {
     let input_check2 = JSON.parse(localStorage.getItem('trans_options'));
 
     if(input_check1 && input_check2){
-      console.log("Re-directing")     
+      Navigate("/build_sort")     
     }
     else{
       alert("Select: Current school and Transfers");
@@ -121,9 +121,6 @@ const Home = () => {
       <div className='col'>
       <br></br>
       <button type = "button" className = 'btn btn-secondary' onClick={Build_direct}>Build Your Transfer Plan</button>
-        <Routes>
-          <Route path = '/sort_build'/>
-        </Routes>
       </div>
     </div>
     )

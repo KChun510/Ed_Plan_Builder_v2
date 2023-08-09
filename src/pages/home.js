@@ -106,7 +106,7 @@ const Home = () => {
     let input_check2 = JSON.parse(localStorage.getItem('trans_options'));
 
     if(input_check1 && input_check2){
-      Navigate("/build_sort")     
+      Navigate("/sort_build")     
     }
     else{
       alert("Select: Current school and Transfers");

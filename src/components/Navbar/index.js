@@ -13,7 +13,7 @@ const Header = () => {
         <Navbar.Brand id = "nav_label" >ED Plan Builder</Navbar.Brand>
         </NavLink>
             <Nav className="ms-auto">
-                <NavLink id = 'nav_links' to="/sort_build" style={{ textDecoration: 'none' }}>Build</NavLink>
+                <NavLink id = 'nav_links' to="/build" style={{ textDecoration: 'none' }}>Build</NavLink>
                 <NavLink id = 'nav_links' to="/blogs" style={{ textDecoration: 'none' }}>Blogs</NavLink>
                 <NavLink id = 'nav_links' to="/contact" style={{ textDecoration: 'none' }}>Contacts</NavLink>
             </Nav>
